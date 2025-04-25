@@ -41,7 +41,7 @@ Tras la experimentación, el modelo seleccionado como el de mejor rendimiento fu
 *   **F1-Score Ponderado en Test:** 0.8893
 
 <p align="center">
-  <img src="curvas.png" alt="Descripción del gráfico" width="700">
+  <img src="curvas.png" alt="Descripción del gráfico" width="1200">
 </p>
 
 
