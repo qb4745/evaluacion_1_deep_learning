@@ -26,27 +26,25 @@ Este repositorio contiene el trabajo realizado para la primera evaluación parci
     *   Análisis comparativo de resultados (tablas y curvas de aprendizaje).
     *   Selección y evaluación detallada del mejor modelo encontrado (incluyendo reporte de clasificación, matriz de confusión y visualización de predicciones).
     *   Guardado del modelo final entrenado.
-*   **`[Nombre_Del_Mejor_Modelo]_final_model.keras`**: El archivo del modelo Keras final, entrenado y guardado, listo para ser cargado y utilizado para inferencia. (Asegúrate de que el nombre coincida con el archivo que subiste).
+*   **`MLP_ReLU_128_64_D0.2_best_model_ES.keras`**: El archivo del modelo Keras final, entrenado y guardado, listo para ser cargado y utilizado para inferencia. (Asegúrate de que el nombre coincida con el archivo que subiste).
 *   **`README.md`**: Este archivo.
 
 ## Resumen del Mejor Modelo
 
 Tras la experimentación, el modelo seleccionado como el de mejor rendimiento fue:
 
-*   **Nombre Base:** `MLP_ReLU_128_64_D0.2_ES` (o el nombre final que elegiste)
+*   **Nombre Base:** `MLP_ReLU_128_64_D0.2` 
 *   **Arquitectura:** Flatten -> Dense(128, ReLU) -> Dropout(0.2) -> Dense(64, ReLU) -> Dropout(0.2) -> Dense(10, Softmax)
 *   **Optimizador:** Adam (LR=0.001)
 *   **Entrenamiento:** Con Early Stopping (mejor época: ~20)
-*   **Accuracy en Test:** [Tu Mejor Accuracy]% (Ej: 88.92%)
-*   **F1-Score Ponderado en Test:** [Tu Mejor F1-Score] (Ej: 0.8893)
+*   **Accuracy en Test:** 88.92% 
+*   **F1-Score Ponderado en Test:** 0.8893
 
-*(Opcional: Puedes añadir un pequeño gráfico aquí si sabes usar Markdown para imágenes, por ejemplo, las curvas de aprendizaje del mejor modelo)*
 
 ## Cómo Ejecutar
 
-1.  Abrir el notebook `[Nombre_De_Tu_Notebook].ipynb` en Google Colab.
-2.  (Opcional, si se requiere cargar el modelo guardado) Asegurarse de que el archivo `.keras` esté en el entorno de Colab o montar Google Drive si se guardó allí.
-3.  Ejecutar las celdas en orden. El Test Harness puede tardar un tiempo considerable en completarse.
+1.  Abrir el notebook `evaluacion_1_deep_learning.ipynb` en Google Colab.
+2.  Ejecutar las celdas en orden. El Test Harness puede tardar un tiempo considerable en completarse.
 
 ## Dependencias Principales
 
